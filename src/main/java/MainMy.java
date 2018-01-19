@@ -7,9 +7,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
 /**
- * Created by 618 on 2018/1/8.
- *
- * @author lingfengsan
+ * 唯一改造：结果权重算法改为了直接获取搜索结果最大的
  */
 public class MainMy {
     private static final int NUM_OF_ANSWERS = 3;
